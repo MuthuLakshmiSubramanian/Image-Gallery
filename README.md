@@ -1,2 +1,12 @@
-# Image-Gallery
-🖼️ Image Gallery Project A responsive image gallery built using HTML, CSS Flexbox, and properties like flex-wrap and flex-basis. The layout adjusts to different screen sizes using flexible and clean styling, making it suitable for displaying images in a neat grid format.
+# 🖼️ Image Gallery
+
+A responsive image gallery built using HTML and CSS Flexbox. It showcases a clean layout for displaying images in a flexible and organized grid structure.
+
+## 🚀 Features
+
+- Built with HTML and CSS
+- Responsive design using Flexbox
+- Clean and minimal layout
+- Easy to customize and expand
+
+
