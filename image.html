@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: darkmagenta;
+}
+.titlebar{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container div{
+    width: 200px;
+    color: white;
+    margin: 10px;
+    flex-basis: 20%
+}
+    </style>
+</head>
+<body>
+    <div>
+    <h1 class="titlebar">𝖨𝗆𝖺𝗀𝖾 𝖦𝖺𝗅𝗅𝖾𝗋𝗒</h1>
+    <!--Flex container-->
+    <div class="container">
+        <div>
+        <img src="dog.jpg" width="200px" height="200px">
+        <h2>Dog</h2>
+        <p>A dog is a faithful friend, offering unconditional love and companionship.</p>
+        </div>
+        <div>
+            <img src="cat.jpeg" width="200px" height="200px">
+            <h2>Cat</h2>
+            <p>A cat is an independent, playful companion with a curious nature.</p>
+        </div>
+        <div>
+            <img src="panda2.jpeg" width="200px" height="200px">
+            <h2>Panda</h2>
+            <p>Pandas are gentle, bamboo-loving bears known for their black-and-white fur and peaceful nature.</p>
+        </div>
+        <div>
+            <img src="cow2.jpeg" width="200px" height="200px">
+            <h2>Cow</h2>
+            <p>A cow is a gentle, domesticated animal known for producing milk.</p>
+        </div>
+        <div>
+            <img src="deer.jpeg" width="200px" height="200px">
+            <h2>Deer</h2>
+            <p>A deer is a graceful, swift animal often found in forests and fields.</p>
+        </div>
+        <div>
+            <img src="elephant.jpg" width="200px" height="200px">
+            <h2>Elephant</h2>
+            <p>An elephant is a massive animal known for its strong memory and gentle nature.</p>
+        </div>
+        <div>
+            <img src="fox.jpeg" width="200px" height="200px">
+            <h2>Fox</h2>
+            <p>A fox is a cunning, agile animal known for its cleverness and sleek fur.</p>
+        </div>
+        <div>
+            <img src="monkey.jpeg" width="200px" height="200px">
+            <h2>Monkey</h2>
+            <p>A monkey is a playful, intelligent animal known for its curiosity and social nature.</p>
+        </div>
+        
+    </div>
+    </div>
+</body>
+</html>
